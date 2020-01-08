@@ -1,11 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-.hidden{
-  display:none;
+html , body {
+  height:100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color:#222;
 }
-
-
-
+hr{
+  border: 1px solid black;
+  width:60%;
+}
+.fa-html5 {
+color: red;
+font-size: 6rem;
+margin:0.3em;
+}
+.fa-css3-alt{
+  color:blue;
+  font-size: 6rem;
+  margin:0.3em;
+}
+.social a {
+  font-size:4rem;
+  padding:4rem;
+}
+.fa-facebook-square{
+color:blue;
+opacity: 0.4;
+transition: font-size 0.3s;
+}
+.fa-twitter{
+color: aqua;
+opacity: 0.4;
+transition: font-size 0.3s;
+}
+.fa-twitter:hover ,.fa-facebook-square:hover , .fa-youtube:hover ,.fa-github:hover{
+  font-size: 4.5rem;
+  opacity:1;
+}
+.fa-youtube{
+color: red;
+opacity: 0.4;
+transition: font-size 0.3s;
+}
+.fa-github{
+color: black;
+opacity: 0.4;
+transition: font-size 0.3s;
+}
+li .nav-item a{
+  color: #222;
+}
+.fa-xbox{
+  font-size: 6rem;
+  color:green;
+  margin: 0.3em;
+}
+.card{
+  transition:transform 0.3s;
+}
+.card:hover{
+  box-shadow: 10px 10px 20px aqua;
+  transform:translate(0px,-20px);
+}
+.sticky{
+  position:-webkit-sticky;
+  position: sticky;
+  
+}
 
 
 
