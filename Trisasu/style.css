@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+.home-inner{
+    background-image: url(img/background.jpg);
+}
+ .caption{
+    position: absolute;
+    top:50%;
+}
+.caption p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+.welcome-btn{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 0.2em 2.5em;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.padding{
+    padding: 3.3rem;
+}
+.lead{
+    padding:1.8rem;
+}
+.welcome{
+    margin:1rem 0 auto;
+    font-size:3rem;
+    font-weight:700;
+    text-transform: uppercase;
+}
+hr{
+    border: 3px solid #707070;
+    border-radius: 25px;
+    width: 25%;
+}
+.btn-other{
+    background-color: #244C4B;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding:1rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.btn-other:hover{
+    font-size:22px;
+    color:white;
+    text-decoration: none;
+}
+.row h4 , .row p{
+    margin:rem;
+}
+.team .row .col-md-12 img{
+    border-radius:20%;
+    max-width:100%;
+    height:15%;
+}.team{
+    background-color:  #244C4B;
+    color:white;
+    width: 100%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+.goal img {
+    border-radius: 0%;
+    height: auto;
+}
+.fa-speakap , .fa-dochub , .fa-meetup , .fa-android , .fa-apple , .fa-copyright{
+    font-size:5rem ;
+    margin:2rem;
+}
+.fa-facebook , .fa-twitter-square, .fa-github{
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.fa-facebook{
+    color: royalblue;
+}
+.fa-twitter-square{
+    color: skyblue;
+}
+.fa-github{
+    color: black;
+}
+footer{
+    background-color: #244C4B;
+    color: #EFF5F5;
+    margin-bottom: 0;
+}
+footer ul li {
+    padding:0.3rem;
+}
+footer .submit{
+    background-color: white;
+    color: black;
+    padding:0.2rem;
+    width:95%;
+    float:right;
+}
+footer .col-12{
+    padding:0.5rem;
+}
+.form-control{
+    padding:1rem;
+    margin:1rem;
+}
+
+.last{
+    width:100%;
+}
+.white-line{
+    border: 1.2px solid  #EFF5F5;
+}
+@media only screen and (max-width: 600px) {
+    .welcome{
+    margin:1rem 0 auto;
+    font-size:1rem;
+    font-weight:700;
+  }
+  .caption{
+      position: absolute;
+      top:15%;
+  }
+  .padding{
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .caption p , .caption a {
+      font-size: 0.7rem;
+  }
+  a{
+      overflow: hidden;
+  }
+}
