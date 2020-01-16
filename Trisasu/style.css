@@ -3,6 +3,10 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
+h4{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
 .home-inner{
     background-image: url(img/background.jpg);
 }
@@ -81,6 +85,21 @@ hr{
     font-size:5rem ;
     margin:2rem;
 }
+.fa-speakap{
+    color: chartreuse;
+}
+.fa-dochub{
+    color: darkblue;
+}
+.fa-meetup{
+    color:orange
+}
+.fa-android{
+    color: green;
+}
+.fa-copyright{
+    color: indianred;
+}
 .fa-facebook , .fa-twitter-square, .fa-github{
     font-size: 2rem;
     margin: 1rem;
@@ -95,6 +114,17 @@ hr{
 .fa-github{
     color: black;
 }
+#teaam img{
+    border-radius: 10%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+#teaam img:hover{
+    box-shadow:  10px 10px 20px 0px  #244C4B;
+    transform: translate(0,-15px);
+
+}
 footer{
     background-color: #244C4B;
     color: #EFF5F5;
@@ -106,9 +136,7 @@ footer ul li {
 footer .submit{
     background-color: white;
     color: black;
-    padding:0.2rem;
-    width:95%;
-    float:right;
+    width:100%;
 }
 footer .col-12{
     padding:0.5rem;
@@ -124,9 +152,16 @@ footer .col-12{
 .white-line{
     border: 1.2px solid  #EFF5F5;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .caption{
+        position: absolute;
+        top:15%;
+    }
+  }
+ 
 @media only screen and (max-width: 600px) {
     .welcome{
-    margin:1rem 0 auto;
     font-size:1rem;
     font-weight:700;
   }
@@ -144,4 +179,8 @@ footer .col-12{
   a{
       overflow: hidden;
   }
+ .btn-other{
+     font-size:0.8rem;
+     margin-bottom: 0.2rem;
+ }
 }
