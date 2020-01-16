@@ -3,6 +3,10 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 .home-inner{
     background-image: url(img/background.jpg);
 }
@@ -26,6 +30,14 @@ body {
     font-weight: 500;
     text-transform: uppercase;
 }
+nav ul li a {
+    color: white;
+}
+a.navbar-brand{
+    font-size: 1rem;
+    font-weight: 900;
+    color: orange;
+}
 .padding{
     padding: 3.3rem;
 }
@@ -34,9 +46,13 @@ body {
 }
 .welcome{
     margin:1rem 0 auto;
-    font-size:3rem;
+    font-size:1.9rem;
+    margin-top:1rem;
     font-weight:700;
     text-transform: uppercase;
+}
+#weeb , #mobile , #teaam{ 
+    padding-top: 2.5rem;
 }
 hr{
     border: 3px solid #707070;
@@ -58,9 +74,7 @@ hr{
     color:white;
     text-decoration: none;
 }
-.row h4 , .row p{
-    margin:rem;
-}
+
 .team .row .col-md-12 img{
     border-radius:20%;
     max-width:100%;
@@ -73,18 +87,45 @@ hr{
     text-transform: uppercase;
     padding: 0.5rem;
 }
-.goal img {
-    border-radius: 0%;
-    height: auto;
+#teaam img{
+    border-radius: 10%;
+    max-height: 35%;
+    max-width:auto;
 }
+#teaam img :hover{
+    box-shadow: 10px 10px 5px #063e53;
+}
+
 .fa-speakap , .fa-dochub , .fa-meetup , .fa-android , .fa-apple , .fa-copyright{
     font-size:5rem ;
-    margin:2rem;
+    margin-bottom: 1rem;
+}
+.fa-speakap{
+    color: green;
+}
+.fa-dochub{
+    color:blue;
+}
+.fa-meetup{
+    color: coral;
+}
+.fa-android{
+    color: green;
+}
+.fa-copyright{
+    color: orange;
 }
 .fa-facebook , .fa-twitter-square, .fa-github{
     font-size: 2rem;
-    margin: 1rem;
     border-radius: 50%;
+    opacity: 0.6;
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+.fa-facebook:hover , .fa-twitter-square:hover, .fa-github:hover{
+    opacity: 1;
+    transform: translate(0,-10px);
+    box-shadow: 10px 10px 5px #063e53;
 }
 .fa-facebook{
     color: royalblue;
