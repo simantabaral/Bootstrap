@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.margin{
+    margin:500px auto;
+}
+.parallax{
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url('./img/cup-of-coffee-1280537_1920.jpg') repeat fixed 100%;
+}
+
+.inner{
+    padding: 200px 0 ;
+}
+.inner h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
