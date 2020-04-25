@@ -1,0 +1,15 @@
+.container{
+    margin:50px auto;
+}
+.inner{
+    
+    overflow: hidden;
+    height:250px;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+.inner img:hover{
+    transform: scale(1.2);
+}
