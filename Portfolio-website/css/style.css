@@ -78,3 +78,29 @@
 .site-main .about-area .about-title .paragraph>p{
     padding: .4rem 0;
 }
+
+/* servoces */
+
+.site-main .services-area{
+    padding: 5rem 2rem;
+}
+.site-main .services-area .services-title{
+    padding:0 14rem;
+}
+.site-main .services-area .services-title h1{
+    font-size:35px;
+}
+
+.site-main>.services-area .services{
+    background: rgba(248, 252,253, 0.973);
+    padding:1rem 0;
+    width:16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main>.services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+.fa-search,.fa-android,.fa-ghost,.fa-html5 {
+    color: #854fee;
+}
