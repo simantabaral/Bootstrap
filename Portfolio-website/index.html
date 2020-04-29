@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./css/vendor/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/vendor/owl/owl.theme.default.min.css">
     
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
     <link href="./css/style.css" rel="stylesheet">
+
+    
+
+
+
 
 </head>
 <body>
@@ -204,10 +212,131 @@
          </section>
 
 
-    </main>
+         <!-- project area -->
 
+         <section class="project-area">
+             <div class="container">
+                 <div class="project-title pb-5">
+                     <h1 class="text-upercase title-h1">
+                         Recently Done Project
+                     </h1>
+                    <h1 class="text-upercase title-h1">
+                        Quality Work
+                    </h1>
+                 </div>
+                 <div class="button-group">
+                     <button type="button" class="active">All</button>
+                    <button type="button" data-filter=".popular" >Popular</button>
+                    <button type="button" data-filter=".latest">Latest</button>
+                    <button type="button">Following</button>
+                    <button type="button" >Following</button>
+                 </div>
+                 <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/0cf147b3fd913b9e0ed0c370cae95699_1_-1_photo.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Minimal Design</h4>
+                                 <span class="text-secondary">Porifolio</span>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/0cf147b3fd913b9e0ed0c370cae95699_1_-1_photo.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Minimal Design</h4>
+                                <span class="text-secondary">Porifolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <img src="./img/0cf147b3fd913b9e0ed0c370cae95699_1_-1_photo.jpg " class="img-fluid" alt="">
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Minimal Design</h4>
+                                <span class="text-secondary">Porifolio</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>hello</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque iste ea aspernatur, maiores eveniet?</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>hello</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque iste
+                                ea aspernatur, maiores eveniet?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>hii</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque
+                                iste ea aspernatur, maiores eveniet?</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>ii</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque
+                                iste
+                                ea aspernatur, maiores eveniet?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>hello-bgfbgb</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque
+                                iste ea aspernatur, maiores eveniet?</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>hellfbvfbfbo</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit ratione incidunt iusto sequi neque
+                                iste
+                                ea aspernatur, maiores eveniet?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+         </section>
+       
+    </main>
+    <script src="./css/vendor/owl/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
     <script src="./js/jquey-3-5.0.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./css/vendor/isotope.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    
 </body>
 </html>

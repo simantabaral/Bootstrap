@@ -104,3 +104,32 @@
 .fa-search,.fa-android,.fa-ghost,.fa-html5 {
     color: #854fee;
 }
+
+/* project area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font:normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button+button{
+    padding-left: 3rem;
+}
+
+.our-project>title h4{
+    font:normal 700 25px/12px var(--roboto)
+}
+
+
+/* carasauk */
+#carouselExampleIndicators{
+    background-color: gray;
+    
+}
+.carousel-inner{
+    background-color: rgb(122, 148, 226);
+}
