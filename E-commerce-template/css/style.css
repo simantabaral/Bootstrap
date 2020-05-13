@@ -1,0 +1,7 @@
+.slider{
+    position: relative;
+}
+.next.prev{
+    position: absolute;
+    top:50%;
+}
